@@ -2,7 +2,13 @@ import React from 'react';
 import mongo from './gif/mongo.gif'
 import './recipesApp.css'
 
+
 function MongoDB(props) {
+
+    function redirect() {
+        window.location.href = "https://github.com/pv209/MongoDB-Aggregations";
+
+    }
     return (
         <main className='col'>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"/>
@@ -25,7 +31,7 @@ function MongoDB(props) {
             </ul>
             </div>  
             <div className='social'>
-            <button className=' btn btn-outline-dark'>GitHub Repository</button>
+            <button onClick={redirect} className=' btn btn-outline-dark'>GitHub Repository</button>
             </div>
            
             </div>

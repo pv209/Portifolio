@@ -20,11 +20,14 @@ function Projetos(props) {
   </Link>
   <div class="card-body">
     <h5 class="card-title">App Receitas</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p class="card-text">Projeto feito usando meus conhecimentos de Front End. <br />
+                         Obs:Ainda não foi implementado CSS no projeto,porém fizemos um <br />
+                         Figma para melhorar a vizualização do projeto com CSS</p>
   </div>
   <div class="card-body">
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
+  <Link to='/projetos/appReceitas'>
+  <button className=' btn btn-outline-dark'>Detalhes</button>
+  </Link>
   </div>
 </div>
 
@@ -35,11 +38,12 @@ function Projetos(props) {
   </Link>
   <div class="card-body">
     <h5 class="card-title">Mongo Aggregations</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p class="card-text">Projeto feito usando meus conhecimentos para fazer querys em MongoDB</p>
   </div>
   <div class="card-body">
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
+  <Link to='/projetos/mongoDB'>
+  <button className=' btn btn-outline-dark'>Detalhes</button>
+  </Link>
   </div>
 </div>
 
@@ -53,11 +57,13 @@ function Projetos(props) {
   </Link>
   <div class="card-body">
     <h5 class="card-title">Store Manager</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p class="card-text">Projeto feito usando meus Conhecimentos em BackEnd para criar um protótipo de <br />
+                         como seria o backEnd de uma Loja.</p>
   </div>
   <div class="card-body">
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
+  <Link to='/projetos/storeManager'>
+  <button className=' btn btn-outline-dark'>Detalhes</button>
+  </Link>
   </div>
 </div>
 
@@ -67,11 +73,12 @@ function Projetos(props) {
   </Link>
   <div class="card-body">
     <h5 class="card-title">MySQL</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p class="card-text">Projeto feito usando conhecimentos em MySQL</p>
   </div>
   <div class="card-body">
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
+  <Link to='/projetos/MySql'>
+  <button className=' btn btn-outline-dark'>Detalhes</button>
+  </Link>
   </div>
 </div>
 

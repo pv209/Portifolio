@@ -3,6 +3,9 @@ import nodeStore from './gif/nodeStore.gif'
 import './recipesApp.css'
 
 function StoreManager(props) {
+    function redirectGit() {
+        window.location.href = "https://github.com/pv209/Store-Manager";
+    }
     return (
         <main className='col'>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"/>
@@ -28,7 +31,7 @@ function StoreManager(props) {
             </ul>
             </div> 
             <div>
-            <button className=' btn btn-outline-dark'>GitHub Repository</button>
+            <button onClick={redirectGit} className=' btn btn-outline-dark'>GitHub Repository</button>
             </div> 
         
             </div>

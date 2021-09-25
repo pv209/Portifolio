@@ -1,0 +1,49 @@
+.main{
+    background-image: url('../images/matrix.gif');
+    color:seashell;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+  }
+  .cabeçalho {
+      padding: 100px;
+  }
+  
+  .pv-image-cont{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .pv-image{
+      max-width: 300px;
+  }
+  .textos{
+      display: flex;
+      background-color: #dbe5e6;
+      flex-direction: row;
+  }
+  .resumo{
+      max-width: 550px;
+      padding: auto;
+  }
+
+  .toolsMain {
+    max-width: 550px;
+    padding: 50px;
+
+}
+  .socials{
+    display: flex;
+    padding: 50px;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 550px;
+        
+
+  }
+
+  h4{
+      padding-right: 50px;
+  }

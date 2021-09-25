@@ -3,6 +3,13 @@ import gif from './gif/gifApp.gif'
 import './recipesApp.css'
 
 function recipesApp(props) {
+
+    function redirectGit() {
+        window.location.href = "https://github.com/pv209/App-de-Receitas";
+    }
+    function redirectFig() {
+        window.location.href = "https://www.figma.com/file/Ry9Wmmxo9dnZWsjJQO2ZB8/Untitled?node-id=0%3A1";
+    }
     return (
         <main className='col'>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"/>
@@ -29,8 +36,8 @@ function recipesApp(props) {
             </ul>
             </div>  
             <div className='social'>
-            <button className=' btn btn-outline-dark'>GitHub Repository</button>
-            <button className='btn btn-outline-dark'>Figma</button>
+            <button onClick={redirectGit} className=' btn btn-outline-dark'>GitHub Repository</button>
+            <button onClick={redirectFig}className='btn btn-outline-dark'>Figma</button>
             </div>
             </div>
             

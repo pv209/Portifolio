@@ -6,6 +6,7 @@ import RecipesApp from './pages/projects/recipesApp';
 import MongoDB from './pages/projects/mongoDb';
 import StoreManager from './pages/projects/StoreManager';
 import MySQL from './pages/projects/MySQL';
+import curriculo from './pages/curriculo/curriculo';
 
 
 
@@ -19,6 +20,8 @@ class App extends Component {
         <Route exact path='/projetos/mongoDB' component={MongoDB}/>
         <Route exact path='/projetos/storeManager' component={StoreManager}/>
         <Route exact path='/projetos/MySql' component={MySQL}/>
+        <Route exact path='/sobre-mim' component={curriculo}/>
+
       </Switch>
     );
   }
