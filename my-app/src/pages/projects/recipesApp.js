@@ -18,7 +18,7 @@ function recipesApp(props) {
             </div>
             
         </div>  
-        <div className='social container'>
+        <div className='tools container'>
             <div className='list'>
             <ul class="list-group">
             <li class="list-group-item">React.js</li>
@@ -28,8 +28,12 @@ function recipesApp(props) {
             <li class="list-group-item">Trello</li>
             </ul>
             </div>  
+            <div className='social'>
             <button className=' btn btn-outline-dark'>GitHub Repository</button>
+            <button className='btn btn-outline-dark'>Figma</button>
             </div>
+            </div>
+            
             </div >
         
              

@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import recipeImg from './images/recipes.jpg'
 import mongo from './images/mongodb.jpg'
+import node2 from './images/node2.png'
+import sql from './images/mySql.jpg'
 import './projetos.css'
 
 function Projetos(props) {
@@ -26,12 +28,13 @@ function Projetos(props) {
   </div>
 </div>
 
+
 <div class="card col" >
-<Link to='/projetos/mongoDB'>
+    <Link to='/projetos/mongoDB'>
   <img class="card-img-top" src={mongo} alt="Card img"/>
-  </Link >
+  </Link>
   <div class="card-body">
-    <h5 class="card-title">MongoDB Aggregations</h5>
+    <h5 class="card-title">Mongo Aggregations</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
   </div>
   <div class="card-body">
@@ -41,10 +44,15 @@ function Projetos(props) {
 </div>
 
 
+
+
+
 <div class="card col" >
-  <img class="card-img-top" src={recipeImg} alt="Card img"/>
+    <Link to='/projetos/storeManager'>
+  <img class="card-img-top" src={node2} alt="Card img"/>
+  </Link>
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
+    <h5 class="card-title">Store Manager</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
   </div>
   <div class="card-body">
@@ -53,11 +61,12 @@ function Projetos(props) {
   </div>
 </div>
 
-
 <div class="card col" >
-  <img class="card-img-top" src={recipeImg} alt="Card img"/>
+<Link to='/projetos/MySql'>
+  <img class="card-img-top" src={sql} alt="Card img"/>
+  </Link>
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
+    <h5 class="card-title">MySQL</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
   </div>
   <div class="card-body">

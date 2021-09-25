@@ -1,5 +1,5 @@
 import React from 'react';
-import gif from './gif/gifApp.gif'
+import mongo from './gif/mongo.gif'
 import './recipesApp.css'
 
 function MongoDB(props) {
@@ -11,24 +11,23 @@ function MongoDB(props) {
         
         <div className='container img-fluid' >
             <h1>Mongo DB Aggregations</h1>
-            <img src={gif} alt="gif App de Receitas" />
+            <img src={mongo} alt="gif App de Receitas" />
             <div className='resumo'>
-            <p>Nesse projeto, a pessoa que estiver utilizando o app pode procurar uma receita especifica, explorar receitas baseado em diferentes critérios, favoritar e fazer as receitas entre outras funcionalidades.
-            As telas sofrem variações dependendo do tipo da receita (se é comida ou bebida, no caso).</p>
+            <p>Nesse projeto, foi feito 12 querys em mongodb para encontrar as informções requisitadas.</p>
             </div>
             
         </div>  
-        <div className='social container'>
+        <div className='tools container'>
             <div className='list'>
             <ul class="list-group">
-            <li class="list-group-item">React.js</li>
-            <li class="list-group-item">ContextAPI </li>
-            <li class="list-group-item">Metodologia Ágil</li>
-            <li class="list-group-item">Slack</li>
-            <li class="list-group-item">Trello</li>
+            <li class="list-group-item">MongoDB</li>
+            <li class="list-group-item">Visual Studio</li>
             </ul>
             </div>  
+            <div className='social'>
             <button className=' btn btn-outline-dark'>GitHub Repository</button>
+            </div>
+           
             </div>
             </div >
         
@@ -39,7 +38,7 @@ function MongoDB(props) {
   
             
        <footer className='container'>
-       <p>Feito Por:Paulo Vitor de Farias Borges,Willian Mendes,Adelino Junior,Luciano Amâncio</p>
+       <p>Feito Por:Paulo Vitor de Farias Borges</p>
        </footer>
         </main>
     );
